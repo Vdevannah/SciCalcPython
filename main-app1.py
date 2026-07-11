@@ -44,23 +44,19 @@ def scientific_calculator():
             elif choice == "4":
                 a = float(input("Enter first number: "))
                 b = float(input("Enter second number: "))
-                if b == 0:
-                    print("Error: Cannot divide by zero.")
-                else:
-                    Divide = a / b
+                Divide = a / b
                 print(f"The Result = {Divide}")
 
             elif choice == "5":
                 a = float(input("Enter base: "))
                 b = float(input("Enter exponent: "))
-                print("Result =", math.pow(a, b))
+                Power = a ** b
+                print(f"The Result = {Power}")
 
             elif choice == "6":
                 a = float(input("Enter a number: "))
-                if a < 0:
-                    print("Error: Square root of a negative number is not real.")
-                else:
-                    print("Result =", math.sqrt(a))
+                x = math.sqrt(a) 
+                print(f"The Result = {x}")
 
             elif choice == "7":
                 angle = float(input("Enter angle in degrees: "))
