@@ -112,17 +112,17 @@ def scientific_calculator():
 
             elif choice == "14":
                 x = sym.Symbol('x')
-                expression = (input("Enter funtion in x: "))
-                function = sym.sympify(expression)
+                equation = (input("Enter funtion in x: "))
+                function = sym.sympify(equation)
                 derivative = sym.diff(function, x)
                 print(f"The Result = {derivative}")
 
             elif choice == "15":
                 x = sym.Symbol('x')
-                expression = (input("Enter funtion in x: "))
-                function = sym.sympify(expression)
-                derivative = sym.diff(function, x)
-                print(f"The Result = {derivative}")
+                equation = (input("Enter funtion in x: "))
+                function = sym.sympify(equation)
+                integral = sym.integrate(function, x)
+                print(f"The Result = {integral}")
 
             elif choice == "16":
                 print("Thank you for using the calculator!")
