@@ -29,6 +29,5 @@ def main():
     performCalcLoop(calc)
     print("Done Calculating.")
 
-
 if __name__ == '__main__':
     main()
