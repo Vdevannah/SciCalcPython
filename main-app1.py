@@ -29,19 +29,19 @@ def scientific_calculator():
                 a = int(input("Enter first number: "))
                 b = int(input("Enter second number: "))
                 Add = a + b
-                print(f"That's a arithmatic function\nThe Result = {Add}")
+                print(f"That's an arithmatic function\nThe Result = {Add}")
 
             elif choice == "2":
                 a = float(input("Enter first number: "))
                 b = float(input("Enter second number: "))
                 Sub = a - b
-                print(f"That's a arithmatic function\nThe Result = {Sub}")
+                print(f"That's an arithmatic function\nThe Result = {Sub}")
 
             elif choice == "3":
                 a = float(input("Enter first number: "))
                 b = float(input("Enter second number: "))
                 Multiply = a * b
-                print(f"That's a arithmatic function\nThe Result = {Multiply}")
+                print(f"That's an arithmatic function\nThe Result = {Multiply}")
 
             elif choice == "4":
                 a = float(input("Enter first number: "))
@@ -50,23 +50,23 @@ def scientific_calculator():
                     print("Error: Cannot divide by zero.")
                 else:
                     Divide = a / b
-                print(f"That's a arithmatic function\nThe Result = {Divide}")
+                print(f"That's an arithmatic function\nThe Result = {Divide}")
 
             elif choice == "5":
                 a = float(input("Enter base: "))
                 b = float(input("Enter exponent: "))
                 Power = a ** b
-                print(f"That's a exponential function\nThe Result = {Power}")
+                print(f"That's an exponential function\nThe Result = {Power}")
 
             elif choice == "6":
                 a = float(input("Enter a number: "))
                 x = math.sqrt(a) 
-                print(f"That's a exponential function\nThe Result = {x}")
+                print(f"That's an exponential function\nThe Result = {x}")
 
             elif choice == "7":
                 a = float(input("Enter a number: "))
                 Inverse = 1/a 
-                print(f"That's a inverse function\nThe Result = {Inverse}")
+                print(f"That's an inverse function\nThe Result = {Inverse}")
 
             elif choice == "8":
                 angle = float(input("Enter angle in degrees: "))

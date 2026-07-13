@@ -1,4 +1,6 @@
 import sympy as sym
+import random
+import statistics
 
 from arithmetic_calculator import ArithmeticCalculator
 from scientific_calculator import ScientificCalculator
@@ -80,15 +82,20 @@ Scientific Calculator
 8.  Sine
 9.  Cosine
 10. Tangent
-11. Log Base 10
-12. Natural Log
-13. Factorial
-14. Differentiate
-15. Integrate
-16. M+  - Add display value to memory
-17. MC  - Clear memory
-18. MRC - Recall memory
-19. Return to Main Menu
+11. Inverse Sine
+12. Inverse Cosine
+13. Inverse Tangent
+14. Log Base 10
+15. Natural Log
+16. Factorial
+17. Differentiate
+18. Integrate
+19. Random number generator
+20. Mean, Median and Mode
+21. M+  - Add display value to memory
+22. MC  - Clear memory
+23. MRC - Recall memory
+24. Return to Main Menu
 
 """
         )
@@ -125,32 +132,47 @@ Scientific Calculator
 
             elif choice == "10":
                 calculator.tangent()
-
+            
             elif choice == "11":
-                calculator.log10()
+                calculator.inverse_sine()
 
             elif choice == "12":
-                calculator.natural_log()
+                calculator.inverse_cosine()
 
             elif choice == "13":
-                calculator.factorial()
+                calculator.inverse_tangent()
 
             elif choice == "14":
-                calculator.differentiate()
+                calculator.log10()
 
             elif choice == "15":
-                calculator.integrate()
+                calculator.natural_log()
 
             elif choice == "16":
-                calculator.memory_add()
+                calculator.factorial()
 
             elif choice == "17":
-                calculator.memory_clear()
+                calculator.differentiate()
 
             elif choice == "18":
-                calculator.memory_recall()
+                calculator.integrate()
 
             elif choice == "19":
+                calculator.random_number()
+
+            elif choice == "20":
+                calculator.statistics_summary()
+
+            elif choice == "21":
+                calculator.memory_add()
+
+            elif choice == "22":
+                calculator.memory_clear()
+
+            elif choice == "23":
+                calculator.memory_recall()
+
+            elif choice == "24":
                 print("\nReturning to the main menu.\n")
                 break
 

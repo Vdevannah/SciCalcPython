@@ -13,7 +13,7 @@ class ArithmeticCalculator:
 
     def show_result(self, value):
         self.display = value
-        print(f"\nResult = {self.display}\n")
+        print(f"\nResult = {self.display }\n")
 
     def add(self):
         a, b = self.get_two_numbers()
