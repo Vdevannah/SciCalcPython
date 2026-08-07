@@ -198,6 +198,16 @@ sdist/
 var/
 *.egg-info/
 .installed.cfg
+
+# macOS metadata
+.DS_Store
+
+# Local Python environments
+.venv/
+venv/
+
+# Local recovery archives
+*.recovery.tar.gz
 *.egg
 
 # Installer logs
